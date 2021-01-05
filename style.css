@@ -1,0 +1,115 @@
+/* font-family: 'Josefin Sans', sans-serif;
+font-family: 'Kalam', cursive;
+font-family: 'Merriweather', serif;
+font-family: 'Xanh Mono', monospace; */
+body{
+    background-image: linear-gradient(45deg,#FBDA61,#FF5ACD);
+    background-repeat: no-repeat;
+     background-size:contain ;
+ }
+.half-width{
+    width: 40%;
+    float: left;
+    padding: 10px;
+    margin-bottom: 200px;
+    margin-right: 30px;
+    
+}
+.identity{
+    margin-left: 3%;
+}
+  h1{
+    font-family: 'Xanh Mono', monospace;
+    font-size: 35px;
+}
+  p{
+    font-size:20px ;
+    font-family: 'Kalam', cursive;    margin-top: 10px;
+
+}
+a{
+    text-decoration: none;
+    color:#FF2525;
+    font-size: 25px;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+.identity img{
+    width: 100%;
+    margin-left: 25%;
+    margin-top: 0px;
+    
+     
+}
+.highlight{
+     
+    background: -webkit-linear-gradient(280deg,#B5FFFC, #FFDEE9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 50px;
+    margin-left: 8%;
+    
+}
+
+.myButton {
+    text-align: center;
+   background-color: #FFE32C;
+   border: firebrick 1px solid;
+   padding: 10px;
+   border-radius: 10px;
+   margin-top: 30px;
+   width: 35%;
+   position: relative;
+   
+   
+}
+ .myButton :hover{
+    background-color: rgb(253, 252, 252);
+    transition-duration: 1s;
+}
+.photo{
+margin-left: 39%;
+ }
+.photo img{
+    height: 200px;
+}
+.status{
+    /* text-align: ceter; */
+    display: inline-block;
+}
+.dream,.hobbit{
+    margin-left:5%;
+}
+.routine{
+    margin-left: 15px;
+}
+.page{
+    height:300px;
+    /* background-color: ivory; */
+    box-shadow: 10px 10px 40px rgb(58, 56, 56);
+    margin-left: 45px;
+    padding: 20px;
+
+}
+.day{
+    border-left: 5px solid;
+    border-image: linear-gradient(180deg,#FF2525,#FFE53B);
+    border-image-slice: 1;
+}
+.night{
+    border-left: 5px solid;
+    border-image: linear-gradient(180deg,#4158D0,#C850C0);
+    border-image-slice: 1;
+}
+.highlight1{
+     
+    background: -webkit-linear-gradient(280deg,#262727, #FFDEE9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 30px;
+    
+}
+footer{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
